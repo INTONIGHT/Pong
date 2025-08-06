@@ -4,38 +4,10 @@ import java.util.*;
 import javax.swing.*;
 
 
-public class GameFrame {
+public class GameFrame extends JFrame{
+	GamePanel panel = new GamePanel();
 	GameFrame(){
 		
 	}
-	public void newBall() {
-		
-	}
-	public void newPaddles() {
-		
-	}
-	public void paint(Graphics g) {
-		
-	}
-	public void draw(Graphics g) {
-		
-	}
-	public void move() {
-		
-	}
-	public void checkCollision() {
-		
-	}
-	public void run() {
-		
-	}
-	//action listener class
-	public class AL extends KeyAdapter{
-		public void keyPressed(KeyEvent e) {
-			
-		}
-		public void keyReleased(KeyEvent e) {
-			
-		}
-	}
+	
 }

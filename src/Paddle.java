@@ -3,9 +3,12 @@ import java.awt.event.*;
 import java.util.*;
 import javax.swing.*;
 
-public class Paddles {
+public class Paddle extends Rectangle{
+	int id;
+	//1 or 2 for paddle 1 or 2
+	int yVelocity;
 	
-	Paddles(){
+	Paddle(){
 		
 	}
 	public void keyPressed(KeyEvent e) {
