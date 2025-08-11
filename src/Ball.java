@@ -7,7 +7,7 @@ public class Ball extends Rectangle{
 	Random random;
 	int xVelocity;
 	int yVelocity;
-	int initialSpeed = 2;
+	int initialSpeed = 3;//can change this speed depending on how fast you want it
 	
 	Ball(int x,int y,int width,int height){
 		super(x,y,width,height);
